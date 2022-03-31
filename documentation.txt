@@ -1,0 +1,15 @@
+Analysis
+
+I first created the "RastgeleCharacter" library with the package to make it modular as requested in the assignment. Then I made the library available on any project by making IT a JAR file. The functions I use inside the library are as follows:
+
+I wrote the thistime() function using the system time to create a random number. To keep the randomness varied, I've determined the data type of the variable I've been keeping system time for long. I've also determined the type of return for the function to be long.
+
+I've created four different functions in total, naming the rand() function. My goal was to highlight the overrated structure between functions. My first rand() function is a structure that does not receive any parameters, which limits the system time data that it receives only through the thistive () function according to the letter increment in the ASCII table. The return type of the function is determined by char.
+
+the rand (int count) function is the second rand function and aims to produce a certain amount of characters. This function, which is a return-type string, returns the desired result by transferring the characters it produces to the stringe using the for structure.
+
+the rand (int v1, int v2) function is the third rand function. Character generation is intended between two characters. Characters are imported with integer data type and inserted into the while (true) infinite cycle. characters generated using the rand() function are provided in the range specified by the if condition. The return type of the function is set to char.
+
+the rand (string characters) function is our fourth and last rand function. A random number of random characters is intended to be produced by addressing a specific sequence of characters. The length of the sequence of characters received in the function, the thistive() function and string variable are utilized. The random amount is generated using the thistive () function and the while (true) infinite cycle. The production of the characters was created by adding the for loop and the stringe () function. The type of return of the function is stringable.
+
+the sentence (in space) function has a structure that creates a sentence based on how many words a sentence is required. The function uses the indis variable and the indisArray directory to determine the gaps to be added to the sentence. The length of the sentence is calculated and assigned to you with the spaces to be placed. the thistive () function is used to determine the values of the dentures. when creating indis values, the conditions of the if are prevented from having spaces at the beginning and end of the sentence. Other than that, a if condition and search algorithm were also used to avoid conflicts with other indences created. After these operations, the string is created and transferred to the charArray array by the string.toCharArray () method. Finally, according to the indentures we create, the charArray array adds spaces and is transferred to the stringe to make the final process.
